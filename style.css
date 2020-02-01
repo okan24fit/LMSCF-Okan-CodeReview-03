@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/**********************************************Header*************************/
+#title{
+    background-color: mistyrose;
+    height: 7em;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logobanner{
+    margin: auto 2.5em;
+}
+
+/**********************************************Navbar*************************/
+
+.nav ul{
+    background-color: firebrick;
+    display: flex;
+    height: 2em;
+}
+
+.nav li{
+    text-decoration: none;
+    list-style: none;
+    margin: auto 0.7em;
+    font-size: 1.3em;  
+    font-family: 'Kanit', sans-serif; 
+
+}
+
+/**********************************************Main*************************/
+
+.backgroundpicture{
+    background-image: url(img/traffic.jpg);
+    height: 80em;
+    width: 100%;
+}
+
+.backgroundpicture h2{
+    font-family: 'Kanit', sans-serif; 
+    color: white;
+    font-size: 4em;
+    padding: 1.5em 1.5em;
+}
+
+.text{
+    background-color: lightgray;
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.standard{
+    display: flex;
+    justify-content: space-around;
+    margin: 5em 0;
+
+}
+
+.Box{
+    height: 280px;
+    width: 310px;
+    padding: 1.2em;
+    border-top: 2px solid black;
+    box-shadow: 0 1px 1px 1px lightgrey;
+    
+}
+
+.Box h2{
+    font-family: 'Cairo', sans-serif;
+}
+
+.Box span{
+    color: lightseagreen;
+}
+
+.textcolor{
+    color: grey;
+}
+
+#input-layout{
+    display: flex;
+    justify-content: center;
+}
+
+.input{
+    position: absolute;
+    background-color:rgba(192,192,192,0.8);
+    width: 72em;
+    height: 70em;
+}
+
+.input h2{
+    color: black;
+    text-align: center;
+    
+}
+
+form{
+    margin-top: 7em;
+}
+
+.click1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 5em; 
+}
+
+#button{
+    width: 22vw;
+    height: 9vh;
+    font-size: 2.5em;
+    background-color: green;
+    color: white;
+    border-radius: 0.3em;
+}
+
+#button:hover{
+    background-color: rgb(82, 170, 82);
+} 
+
+#text, #age, #country{
+    width: 16vw;
+    height: 5vh;
+    font-size: 1.8em;
+}
+
+.layouttext{
+    margin-top: 5em;
+}
+
+.layouttext p{
+    color: green;
+    font-size: 3em;
+    text-align: center;
+}
+
+.click1 p{
+    font-size: 1.2em;
+}
+
+
+/**********************************************Footer*************************/
+
+footer{
+    background-color: black;
+    height: 16em;
+}
+
+.nav2 ul{
+    display: flex;
+}
+
+.nav2 li{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    margin: auto 0.7em;
+    font-size: 1.3em;  
+    font-family: 'Kanit', sans-serif; 
+
+}
+
+.footerlogo{
+    display: flex;
+    justify-content: flex-end;
+    margin: 3em 2em 0 0;
+}
+
+#footername{
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footertext{
+    margin-top: 6em;
+}
+
+@media only screen and (max-width: 480px) {
+  #title{
+      background-color: lightyellow;
+  }
+}
